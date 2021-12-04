@@ -1,0 +1,12 @@
+#! /usr/bin/python3
+import os
+
+x = str(input('Enter launch type (server/client)>>'))
+if x == 'server':
+    os.system('python3 /usr/share/Tknet/Server/main.py')
+
+elif x == 'client':
+    os.system('python3 /usr/share/Tknet/Client/main.py')
+
+else:
+    print('Invalid launch type! Choose: server or client')
