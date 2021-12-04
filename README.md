@@ -1,3 +1,3 @@
-![Screenshot 2021-03-22 at 1 39 44 PM](https://user-images.githubusercontent.com/83606175/144725506-1c9bb767-32cd-4ae9-8af3-e7494444fab2.png)
-# Tknet-Remotely-transfer-directorys-and-files
-This software is a linux utility for transfer of files and directorys between two (or more) devices. 
+# Tknet: Remotely-transfer-directorys-and-files
+
+This software is a linux utility for transfer of files and directorys between two (or more) devices. The code is split into two sections, client and server. When you run the command you will be asked which section you want to use. If you want to transfer something from one of your devices to another, you can simply run the server on one and the client on the other. The client will ask for the ip of the tknet server you want to use (the ip of the device with the server running in this case) and then ask for path to your desired file/directory. If it exists on the server the transfer will begin after you specify where you want the files to be donwloaded to. Note that ALL files on the server device are accessible currently so be carefull!
