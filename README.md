@@ -24,10 +24,9 @@ file types would result in a client-side crash!
 
 To install, first download this repository as a zip file, extract it. DO NOT change the name of the file or the build proccess will not work.
 
-Run the build script in the installation directory (with sudo), this will set up the files on your computer, you must enter the path to the tknet folder you just added in order for the build proccess to work. For example if the Tknet folder was in /home/Downloads, you would enter /home/Downloads.
-After this the 'tknet' command should be ready to go. 
+Go ahead and navigate to the Install directory and run the build script (with sudo): sudo python build.py, this will set up the files on your computer, you must enter the path to the tknet folder you just added in order for the build proccess to work. For example if the Tknet folder was in /home/Downloads, you would enter /home/Downloads. After this the 'tknet' command should be ready to go. 
 
-If it does not work then you will have to manually install, but first retry. Make sure you run with sudo and enter a valid path. If you are sure it will not work, create a directory called Tknet in /usr/share/ and move the server and client folders to it. Then move the file in command called tknet to /bin. Run sudo chmod +x /bin/tknet to make it executable.
+If this does not work then you will have to manually install, but first retry. Make sure you run with sudo and enter a valid path. If you are sure it will not work, create a directory called Tknet in /usr/share/ and move the server and client folders to it. Then move the file in command called tknet to /bin. Run sudo chmod +x /bin/tknet to make it executable.
 
 
 
