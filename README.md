@@ -26,7 +26,11 @@ To install, first clone this repository. Be sure to name the new folder Tknet an
 
 Run the build script in the installation directory (with sudo), this will set up the files on your computer
 and the 'tknet' command should be ready to go. The build script will not modify existing content on your computer, if you want to see what files
-it creates I would recommend checking out the commands executed in the code. If it does not work then you will have to manually install.
+it creates I would recommend checking out the commands executed in the code. 
+
+If it does not work then you will have to manually install. Create a directory called Tknet in /usr/share/ and move theserver and client folders to it.
+Then move the file in command called tknet to /bin. Run sudo chmod +x /bin/tknet to make it executable.
+
 
 
 # Info
