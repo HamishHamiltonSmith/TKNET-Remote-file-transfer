@@ -22,14 +22,12 @@ file types would result in a client-side crash!
 
 # Installation
 
-To install, first clone this repository. Be sure to name the new folder Tknet and move it to the Downloads directory.
+To install, first clone this repository. Be sure to name the new folder Tknet.
 
-Run the build script in the installation directory (with sudo), this will set up the files on your computer
-and the 'tknet' command should be ready to go. The build script will not modify existing content on your computer, if you want to see what files
-it creates I would recommend checking out the commands executed in the code. 
+Run the build script in the installation directory (with sudo), this will set up the files on your computer, you must enter the path to the tknet folder you just added in order for the build proccess to work. For example if the Tknet folder was in /home/Downloads, you would enter /home/Downloads.
+After this the 'tknet' command should be ready to go. 
 
-If it does not work then you will have to manually install. Create a directory called Tknet in /usr/share/ and move theserver and client folders to it.
-Then move the file in command called tknet to /bin. Run sudo chmod +x /bin/tknet to make it executable.
+If it does not work then you will have to manually install, but first retry. Make sure you run with sudo and enter a valid path. If you are sure it will not work, create a directory called Tknet in /usr/share/ and move the server and client folders to it. Then move the file in command called tknet to /bin. Run sudo chmod +x /bin/tknet to make it executable.
 
 
 
