@@ -10,7 +10,7 @@ if d[len(d)-1] == '/':
     d = d[:len(d)-1]
 
 
-os.system(f'cp -r {d}/Tknet/Src/Server/usr/share/Tknet')
-os.system(f'cp -r {d}/Tknet/Src/Client/usr/share/Tknet')
-os.system(f'cp {d}/Tknet/Src/Command/tknet /bin')
+os.system(f'cp -r {d}/TKNET-Remote-file-transfer/Src/Server /usr/share/Tknet')
+os.system(f'cp -r {d}/TKNET-Remote-file-transfer/Src/Client /usr/share/Tknet')
+os.system(f'cp {d}/TKNET-Remote-file-transfer/Src/Command/tknet /bin')
 os.system('chmod +x /bin/tknet')
