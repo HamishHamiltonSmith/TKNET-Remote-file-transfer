@@ -22,7 +22,9 @@ file types would result in a client-side crash!
 
 # Installation
 
-To install, first clone this repository. Run the build script in the installation directory (with sudo), this will set up the files on your computer
+To install, first clone this repository. Be sure to name the new folder Tknet and move it to the Downloads directory.
+
+Run the build script in the installation directory (with sudo), this will set up the files on your computer
 and the 'tknet' command should be ready to go. The build script will not modify existing content on your computer, if you want to see what files
 it creates I would recommend checking out the commands executed in the code. If it does not work then you will have to manually install.
 
