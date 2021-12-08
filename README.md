@@ -6,7 +6,7 @@
 
 This software is a linux utility for transfer of files and directorys between two (or more) devices.
 
-It is fairly simple. You can have a tknet server, and client. When you run the command "tknet" (usually has to be done with sudo), you will be prompted to chose between these two options. Run the server on the computer which has the files you want to transfer, and run the client on the computer with which
+It is fairly simple. You can have a tknet server, and client. When you run the command "tknet" (usually has to be done with sudo or root permissions), you will be prompted to chose between these two options. Run the server on the computer which has the files you want to transfer, and run the client on the computer with which
 you want to recieve the files. 
 
 Tknet servers come with optional security parameters like client password authentications and restricted directory access. You will be asked
